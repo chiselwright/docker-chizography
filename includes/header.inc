@@ -49,6 +49,9 @@
                 <ul class="dropdown-menu">
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://blog.chisel.pm/">Personal musings&hellip;</a></li>
+                    <li><a href="http://blogs.perl.org/users/chisel/">Technical musings&hellip;</a></li>
                 </ul>
             </li>
           </ul>
