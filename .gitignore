@@ -1,0 +1,11 @@
+.*sw?
+/web/Santa-Web/santa_web_*.conf
+
+neo4j/*/conf/ssl/
+neo4j/*/data/graph.db/
+neo4j/*/data/keystore
+neo4j/*/data/log/console.log
+neo4j/*/data/log/neo4j.0.0.log
+neo4j/*/data/log/neo4j.0.0.log.lck
+neo4j/*/data/neo4j-service.pid
+neo4j/*/data/rrd

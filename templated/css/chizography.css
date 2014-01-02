@@ -1,0 +1,72 @@
+/* http://snook.ca/archives/html_and_css/font-size-with-rem */
+/*html { font-size: 62.5%; } */
+/*body { font-size: 1.2rem; } /* =10px */
+/*h1   { font-size: 1.8rem; } /* =14px */
+/*h2   { font-size: 1.6rem; } /* =14px */
+
+
+body {
+    background-color: #333344;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    color: #f5f5f7;
+    font-family: 'News Cycle','Trebuchet MS',Tahoma,Georgia,'Times New Roman',Times,sans-serif,serif;
+}
+
+p, a, div, span, ul, li, h1, h2, h3 {
+    color: #f5f5f7;
+}
+
+body > p {
+    margin-left:    25px;
+    margin-right:   25px;
+    text-align:     justify;
+}
+
+body > h1, body > h2, body > h3 {
+    margin-left:    15px;
+    margin-right:   15px;
+}
+
+
+p > a {
+    color: #a6a6bc;
+}
+
+#footer {
+    margin-top: 10px;
+    padding-right: 5px;
+    border: 2px sunken #333344;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.navbar-default .navbar-brand {
+  color: #f5f5f7;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #a6a6bc;
+  background-color: transparent;
+}
+
+/* bootstrap CSS overrides */
+.navbar-default {
+    background-color: #333344;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #f5f5f7;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #a6a6bc;
+  background-color: transparent;
+}
+
+.well {
+    background-color: #3b3b4f;
+}
