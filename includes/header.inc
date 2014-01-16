@@ -54,6 +54,7 @@
                     <li><a href="http://blogs.perl.org/users/chisel/">Technical musings&hellip;</a></li>
                 </ul>
             </li>
+            <li><a href="/products/clothing">Clothing</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

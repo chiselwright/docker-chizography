@@ -1,0 +1,132 @@
+[% PROCESS header.inc %]
+
+[% BLOCK zazzle_tshirt %]
+[% SET width=300 %]
+<div style="text-align:center;line-height:150%">
+    <div class="thumbnail">
+        <a href="http://www.zazzle.co.uk/[%identifier%]-[%id_number%]?rf=[%rf%]">
+            <img
+                src="http://rlv.zcache.co.uk/[%identifier%]-[%img%]_[%width%].jpg"
+                alt="[%title%]"
+                width="[%width%]"
+                height="[%width%]"
+                style="border:0;" />
+        </a>
+    </div>
+    <div class="caption">
+        <h4><a href="http://www.zazzle.co.uk/[%identifier%]-[%id_number%]?rf=[%rf%]">[%title%]</a></h4>
+    </div>
+</div>
+[% END %]
+
+<div class="container">
+    <h3><span class="glyphicon glyphicon-barcode"></span> Clothing</h3>
+        <div class="row">
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'Better Punctuation',
+                    identifier = 'better_punctuation_tees',
+                    id_number  = '235736574280397762',
+                    img        = 'rc86cc55bb6d642a8b04271d165fa7345_va6l9',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+
+        <div class="col-sm-4">
+                [% INCLUDE zazzle_tshirt
+                        title      = 'Not Truly Awful',
+                        identifier = 'not_truly_awful_t_shirts',
+                        id_number  = '235054160539278830',
+                        img        = 'r39d9779b11c248e4a993692e3b85eb8f_va6lr',
+                        rf         = '238745662049225358',
+                %]
+        </div>
+
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'I &#65533; Unicode',
+                    identifier = 'i_unicode_tee_shirt',
+                    id_number  = '235442613480103840',
+                    img        = 'raf7c866c98f34c0f9f47409ea49bd4fc_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'ASCII Hearts',
+                    identifier = 'ascii_hearts_tshirt',
+                    id_number  = '235476699843441372',
+                    img        = 'r95ee88c745454f86842876f39a5f8483_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'My Other T-Shirts',
+                    identifier = 'my_other_t_shirts_are_funnier',
+                    id_number  = '235002346701983995',
+                    img        = 'r04a9d91e67eb4c82841debb75c4bda49_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'Tee Shirt',
+                    identifier = 'tee_shirt',
+                    id_number  = '235092950127292714',
+                    img        = 'ra35ba4efa2ed4263aeda906013135b1f_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'Same Shirt',
+                    identifier = 'sameshi_r_t_tees',
+                    id_number  = '235614185053831861',
+                    img        = 'r2ed79a3e5aad483b9fe58f5425d06498_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'Redhead Appreciation Society',
+                    identifier = 'redhead_appreciation_society_tee_shirt',
+                    id_number  = '235550178770070644',
+                    img        = 'r52bc8de9b4894abe88ea4900b0899f06_vj70a',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'I Am Not',
+                    identifier = 'i_am_not_a_plastic_bag_shirts',
+                    id_number  = '235667708584146015',
+                    img        = 'r2b3b71a30d6948f88640eda1551f3963_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            [% INCLUDE zazzle_tshirt
+                    title      = 'Smile',
+                    identifier = 'smile_t_shirts',
+                    id_number  = '235253177984067795',
+                    img        = 'r24442b75693a434781855ab03919b4c3_va6lr',
+                    rf         = '238745662049225358',
+            %]
+        </div>
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</div> <!-- /container -->
+[% PROCESS footer.inc %]
