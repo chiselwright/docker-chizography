@@ -128,14 +128,16 @@ function animateNames(parsed_csv) {
 
     for (var c=0; c<loops; c++) {
         // iterate over all the names we've parsed
-        for (var i in parsed_csv) {
-            var line=parsed_csv[i];
-            // make a call in the future to kick off the animation
-            setTimeout(
-                function(line) { animateName(line[0]); },
-                randomTimeout() + (c * loop_ms),
-                line
-            );
+        for (var padding_loop=0; padding_loop<15; padding_loop++) {
+            for (var i in parsed_csv) {
+                var line=parsed_csv[i];
+                // make a call in the future to kick off the animation
+                setTimeout(
+                    function(line) { animateName(line[0]); },
+                    randomTimeout() + (c * loop_ms),
+                    line
+                );
+            }
         }
     }
 }
