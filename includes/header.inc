@@ -52,6 +52,10 @@
                     <li class="divider"></li>
                     <li><a href="http://blog.chisel.pm/">Personal musings&hellip;</a></li>
                     <li><a href="http://blogs.perl.org/users/chisel/">Technical musings&hellip;</a></li>
+                    <li class="divider"></li>
+                    <li>&nbsp;&nbsp;Gaming</li>
+                    <li><a href="http://boardtalk.chizography.net">Board Talk</a></li>
+                    <li><a href="http://www.gameshelf.se/?&u=chizcw">Collection Info</a></li>
                 </ul>
             </li>
             <li><a href="/products/clothing">Clothing</a></li>

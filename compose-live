@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# no rebuilding; use whatever we should have built from preview
+# tagging might be a good idea later...
+docker-compose -f docker-compose-live.yml up -d

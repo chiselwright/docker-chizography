@@ -1,0 +1,4 @@
+#!/bin/bash
+zucchini --config=/home/chisel/development/docker-chizography/zucchini.conf --force
+docker-compose -f docker-compose-preview.yml build
+docker-compose -f docker-compose-preview.yml up -d

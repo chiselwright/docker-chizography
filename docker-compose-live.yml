@@ -1,0 +1,4 @@
+weblive:
+  image: dockerchizography_webpreview:latest
+  environment:
+      VIRTUAL_HOST: chizography.net

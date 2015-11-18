@@ -1,0 +1,4 @@
+webpreview:
+  build: .
+  environment:
+      VIRTUAL_HOST: preview.chizography.net
