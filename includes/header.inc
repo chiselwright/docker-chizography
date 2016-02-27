@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="[%author%]">
+
+    [%# QUICK HACK %][% IF graph_headers %][%graph_headers%][% END %]
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
     <title>[% IF page_title %][%page_title%] - [% END %][%site_name%]</title>
@@ -63,6 +66,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="/droid">Android</a></li>
                     <ul><li><a href="/droid/whosfirst">Who's First?</a></li></ul>
+                    <ul><li><a href="/droid/spytimer.free">SpyTimer FREE</a></li></ul>
                 </ul>
             </li>
             <li><a href="/products/clothing">Clothing</a></li>
