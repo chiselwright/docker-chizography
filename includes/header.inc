@@ -8,7 +8,7 @@
     <meta name="author" content="[%author%]">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-    <title>[%site_name%]</title>
+    <title>[% IF page_title %][%page_title%] - [% END %][%site_name%]</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
@@ -56,6 +56,13 @@
                     <li>&nbsp;&nbsp;Gaming</li>
                     <li><a href="http://boardtalk.chizography.net">Board Talk</a></li>
                     <li><a href="http://www.gameshelf.se/?&u=chizcw">Collection Info</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apps <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/droid">Android</a></li>
+                    <ul><li><a href="/droid/whosfirst">Who's First?</a></li></ul>
                 </ul>
             </li>
             <li><a href="/products/clothing">Clothing</a></li>

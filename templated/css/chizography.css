@@ -113,3 +113,22 @@ p > a {
   background-color: #656587;
   outline: 0;
 }
+
+
+/* http://abhaytalreja.blogspot.co.uk/2013/03/font-size-on-websites-using-twitter.html
+ */
+.font-size-xsmall {
+    font-size: 0.7em;
+}
+
+.font-size-small {
+    font-size: 0.8em;
+}
+
+.font-size-medium {
+  font-size: 0.9em;
+}
+
+.font-size-large {
+  font-size: 1.0em;
+}
