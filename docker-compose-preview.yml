@@ -1,4 +1,10 @@
-webpreview:
-  build: .
-  environment:
-      VIRTUAL_HOST: preview.chizography.net
+chizography-preview:
+    build: .
+    expose:
+      - 80
+    environment:
+      - VIRTUAL_HOST=preview.chizography.net
+        #- VIRTUAL_PROTO=https
+        #- HTTPS_METHOD=noredirect
+    volumes:
+        - ./conf/.well-known:/var/www/.well-known
