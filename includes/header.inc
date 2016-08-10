@@ -14,16 +14,16 @@
     <title>[% IF page_title %][%page_title%] - [% END %][%site_name%]</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300|Englebert' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300|Englebert' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
 
 
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/css/chizography.css">
     <!-- http://www.google.com/fonts#UsePlace:use -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
