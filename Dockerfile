@@ -1,4 +1,5 @@
 FROM    kyma/docker-nginx
+#FROM    jwilder/nginx-proxy
 
 RUN { \
     echo 'http { add_header "X-Clacks-Overhead" "GNU Terry Pratchett"; }'; \

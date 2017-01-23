@@ -2,5 +2,6 @@ chizography-live:
   image: dockerchizography_chizography-preview:latest
   environment:
       VIRTUAL_HOST: chizography.net
+      HTTPS_METHOD: noredirect
   volumes:
       - ./conf/.well-known:/var/www/.well-known
