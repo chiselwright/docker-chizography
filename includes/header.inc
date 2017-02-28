@@ -33,6 +33,7 @@
   </head>
 
   <body>
+    [% PROCESS facebook_sdk_whosfirst.inc %]
     <!-- Static navbar -->
     <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
