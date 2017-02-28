@@ -67,6 +67,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="/droid">Android</a></li>
                     <ul><li><a href="/droid/whosfirst">Who's First?</a></li></ul>
+                    <ul><li><a href="/droid/spytimer">SpyTimer</a></li></ul>
                     <ul><li><a href="/droid/spytimer.free">SpyTimer FREE</a></li></ul>
                 </ul>
             </li>
