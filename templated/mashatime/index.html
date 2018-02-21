@@ -1,4 +1,23 @@
-[% PROCESS header.inc %]
+[% PROCESS header.inc
+    graph_headers = '
+    <!--  Essential META Tags -->
+    <meta property="og:title"         content="MashaTime" />
+    <meta property="og:description"   content="Time WIth Masha" />
+    <meta property="og:image"         content="https://chizography.net/images/front-page/2500-PB-A-014-A4-web.jpg" />
+    <meta property="og:url"           content="https://chizography.net/mashatime/" />
+    <meta name="twitter:card"         content="summary_large_image">
+
+
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name"     content="chizography">
+    <meta property="og:type"          content="website" />
+    <meta name="twitter:image:alt"    content="Default Alt Text For Image">
+
+
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta name="twitter:site"         content="@chizcw">
+    '
+%]
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
