@@ -70,7 +70,7 @@
                     <li class="divider"></li>
                     <li>&nbsp;&nbsp;Gaming</li>
                     <li><a href="http://boardtalk.chizography.net">Board Talk</a></li>
-                    <li><a href="http://www.gameshelf.se/?&u=chizcw">Collection Info</a></li>
+                    <li><a href="http://chisel.pm/base-games">Collection Info</a></li>
                 </ul>
             </li>
             <li class="dropdown">
