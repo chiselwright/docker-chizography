@@ -1,0 +1,61 @@
+[% PROCESS header.inc
+    graph_headers = '
+    <!--  Essential META Tags -->
+    <meta property="og:title"         content="Fund Chizography" />
+    <meta property="og:description"   content="Send money to Chisel" />
+    <meta property="og:image"         content="https://chizography.net/images/front-page/2500-PB-A-014-A4-web.jpg" />
+    <meta property="og:url"           content="https://chizography.net/send-money/" />
+    <meta name="twitter:card"         content="summary_large_image">
+
+
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:site_name"     content="chizography">
+    <meta property="og:type"          content="website" />
+    <meta name="twitter:image:alt"    content="Default Alt Text For Image">
+
+
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta name="twitter:site"         content="@chizcw">
+    '
+%]
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><span class="glyphicon glyphicon-credit-card"></span> Send Money</h3>
+        </div>
+        <div class="col-sm-8">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            Thanks for dropping by. We're not sure why, but it seems you're
+            interested in sending some money in Chisel's direction. Please
+            check out the options below, listed in order of preference, and continue if
+            desired.
+        </div>
+        <div class="col-sm-8">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="well">
+                <div><a href="https://monzo.me/chiselwright/"><img src="monzo.png" alt="Monzo" width="261" height="58"/></a></div>
+                <a href="https://monzo.me/chiselwright/">Send funds with Monzo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="well">
+                <div><a href="https://www.paypal.me/chizcw/"><img src="paypal.png" alt="Paypal" width="237" height="58" /></a></div>
+                <a href="https://www.paypal.me/chizcw/">Send funds with Paypal</a>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+[% PROCESS footer.inc %]
