@@ -18,7 +18,8 @@
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300|Englebert' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
 
-
+    <!-- Fontawesome (Pro) -->
+    <script defer src="https://pro.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-816IUmmhAwCMonQiPZBO/PTgzgsjHtpb78rpsLzldhb4HZjFzBl06Z3eu4ZuwHTz" crossorigin="anonymous"></script>
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/css/chizography.css">
@@ -62,6 +63,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <li><a href="/send-money">Send Money</a></li>
                     <li class="divider"></li>
                     <li><a href="http://blog.chisel.pm/">Personal musings&hellip;</a></li>
                     <li><a href="http://blogs.perl.org/users/chisel/">Technical musings&hellip;</a></li>
